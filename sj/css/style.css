@@ -1,0 +1,175 @@
+@charset "utf-8";
+/*头*/
+.fl{
+	float: left;
+}
+.fr{
+
+	float: right;
+}
+.head{
+	height: 69px;
+	background-color:#504F4F;
+}
+.head1 h2{
+	float:left;
+	/*margin-left: 114px;*/}
+.head1 .head2{
+	font-size: 0;
+	float: right;
+	margin-top: 11px;
+	margin-right: 69px;
+}
+.head1 .head2 a,span{
+	color: #fff;
+	font-size: 12px;
+	}
+.head1 .head2 span{
+	padding-left: 11px;
+	padding-right: 11px;
+}
+/*导航*/
+.nav{
+	
+	height: 56px;
+	line-height: 56px;
+	background-image: url(img/nav.jpg);
+	
+	text-align: right;
+	font-size: 0;
+}
+.nav span{
+	padding-left: 18px;
+	padding-right: 19px;
+}
+.nav span,a{font-size: 14px;}
+.nav a{
+
+}
+
+/*内容*/
+.contant{
+	margin-bottom: 38px;
+}
+.one{
+	height: 316px;
+	border:1px solid #ACACAC;
+	margin-bottom: 23px;
+}
+.two{
+	width:931px;
+	height:300px;
+	border:1px solid #000000;
+	padding-left: 16px;
+	padding-right: 22px;
+}
+.two .two_left{
+	margin-top: 12px;
+	width: 660px;
+	height: 256px;
+	border-right: 1px solid #BEBDBD;
+}
+.two_lefttop p,h2{
+	display: inline-block;
+	height:23px;
+	line-height: 23px;
+}
+.two_lefttop h2,.two_lefttop p{
+	color: #FDB252;
+
+}
+
+.two_leftbr{
+	font-size: 12px;
+	line-height: 30px;
+	width: 431px;
+	margin-left: 25px;
+}
+.two_leftbr a{
+	color: #000000;
+	font-size: 12px;
+}
+
+.two_leftbr span{color: #FC9919;}
+
+/*右边*/
+.two_right{
+	margin-left: 30px;
+	width: 240px;
+}
+.two_righttop{
+	margin-top: 12px;
+}
+/*.two_righttop p,*/.two_righttop h2{
+	display: inline-block;
+	height: 42px;
+	/*line-height: 42px;*/
+}
+.two_righttop p{display: inline-block;}
+.two_righttop h2{
+	color: #FDB252;
+}
+.two_right ul li{
+	font-size: 12px;
+	line-height: 30px;
+}
+.two_right ul li span{
+	float: right;
+}
+.two_right ul li span{
+	color: black;
+}
+.two_right ul a{
+	color: #202020;
+	font-size: 12px;
+}
+.three{
+	margin-top: 24px;
+	height: 327px;
+	border:1px solid #000000;
+	padding-left: 14px;
+	padding-right: 20px;
+}
+.three_top p,h2{
+	display: inline-block;
+	height: 42px;
+	line-height: 42px;
+}
+.three_top h2{
+	color:#F57211;
+}
+.three_bottom img{
+	margin-right: 27px;
+}
+.three_bottomt{
+	margin-bottom: 21px;
+}
+
+
+/*底部*/
+.footer{
+	
+	line-height: 24px;
+}
+.footer .a span,a{
+	font-size: 12px;
+	line-height: 24px;
+	color: #202020;
+
+}
+.footer .a span{
+	padding-left: 14px;
+	padding-right: 14px;
+}
+.footer .a{
+	font-size: 0;
+}
+.footer p{
+	font-size: 12px;
+	line-height: 24px;
+}
+.active:active{
+	color:#F57211;
+}
+
+
